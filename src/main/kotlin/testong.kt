@@ -1,7 +1,9 @@
+import java.util.Scanner
 fun main(){
-    var count = 0
-    repeat(1000){
-        count += 1
-        println(count)
+    val reader = Scanner(System.`in`)
+    var secs: Int = reader.nextInt()
+    repeat(secs){
+        secs -= 1
+        println("I have $secs seconds to live")
     }
 }
