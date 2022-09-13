@@ -4,6 +4,4 @@ fun main(){
         count += 1
         println(count)
     }
-    print(count)
-
 }
